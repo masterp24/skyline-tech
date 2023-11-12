@@ -1,0 +1,123 @@
+table, td, tr, th {
+
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+    }
+    
+    /* styling the span for good and bad sign */
+    .good{
+        border: 1px ;
+        /* width: 5px; */
+        background-color: darkgreen;
+        padding: 1px 4px;
+        border-radius: 3px;
+    }
+    
+    .v-good{
+        border: 1px ;
+        /* width: 5px; */
+        background-color: orange;
+        padding: 1px 4px;
+        border-radius: 3px;
+    }
+    
+    .bad{
+        border: 1px ;
+        /* width: 5px; */
+        background-color: rgb(236, 11, 11);
+        padding: 1px 4px;
+        border-radius: 3px;
+    }
+    
+    
+    /* styling the container session */
+    
+    .container {
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    
+    }
+    
+    table {
+    
+     width: 75%;
+     
+    }
+    
+    th {
+     background-color: dodgerblue;
+     padding: 20px;
+     color: white;
+     /* text-align: center; */
+     text-align: left;
+    font-size: 20px;
+    }
+    
+    td {
+     text-align: justify;
+    }
+    
+    tr:hover{
+        background-color:gray ;
+    }
+    /* tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.3);
+    } */
+    
+    
+    
+    /* Styling the "grade" part of the table */
+    a{
+        text-decoration: none;
+    }
+    /* .Green td:nth-child(6){
+        background-color: green;
+    }
+    
+    .yellow td:nth-child(6){
+    
+        background-color: yellow;
+    }
+    
+    .red td:nth-child(6){
+    
+        background-color: red;
+    
+    } */
+    
+    /* styling the a tag */
+    .Green td a{
+        color: antiquewhite;
+        background-color: darkgreen;
+        padding: 2px 7px;
+        border-radius: 5px; 
+    }
+    
+    .yellow td a {
+        color: antiquewhite;
+        background-color: orange;
+        padding: 2px 7px;
+        border-radius: 5px; 
+    }
+    
+    .red td a{
+        color: antiquewhite;
+        background-color: red;
+        padding: 2px 7px;
+        border-radius: 5px; 
+    }
+    
+    .Green2 td a{
+        background-color: rgb(114, 179, 10);
+        padding: 2px 7px;
+        border-radius: 5px;
+        color: antiquewhite;
+    }
+    
+    
